@@ -7,17 +7,16 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="login_teacher_btn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="login_teacher_btn" fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EntryPointController">
    <children>
       <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #2B4397;">
          <children>
-            <Button id="register_partner_btn" alignment="CENTER_RIGHT" mnemonicParsing="false" style="-fx-background-color: #2B4397;" text="Creare cont partener" textFill="WHITE">
+            <Button id="register_partner_btn" fx:id="btn_register_partener" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#click_register_partener" style="-fx-background-color: #2B4397;" text="Creare cont partener" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Button>
-            <Button id="register_student_btn" alignment="CENTER_RIGHT" mnemonicParsing="false" style="-fx-background-color: #2B4397;" text="Creare cont student" textFill="WHITE">
+            <Button id="register_student_btn" fx:id="btn_register_student" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#click_register_student" style="-fx-background-color: #2B4397;" text="Creare cont student" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -35,17 +34,17 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Button id="login_partner_btn" alignment="CENTER_RIGHT" layoutX="126.0" layoutY="339.0" mnemonicParsing="false" style="-fx-background-color: #2B4397;" text="Parteneri" textFill="WHITE">
+      <Button id="login_partner_btn" fx:id="btn_parteneri" alignment="CENTER_RIGHT" layoutX="126.0" layoutY="339.0" mnemonicParsing="false" onAction="#click_partener" style="-fx-background-color: #2B4397;" text="Parteneri" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button id="login_partner_btn" alignment="CENTER_RIGHT" layoutX="403.0" layoutY="339.0" mnemonicParsing="false" style="-fx-background-color: #2B4397;" text="Profesori" textFill="WHITE">
+      <Button id="login_partner_btn" fx:id="btn_profesori" alignment="CENTER_RIGHT" layoutX="403.0" layoutY="339.0" mnemonicParsing="false" onAction="#click_prof" style="-fx-background-color: #2B4397;" text="Profesori" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button id="login_student_btn" alignment="CENTER_RIGHT" layoutX="262.0" layoutY="339.0" mnemonicParsing="false" style="-fx-background-color: #2B4397;" text="Studenți" textFill="WHITE">
+      <Button id="login_student_btn" fx:id="btn_studenti" alignment="CENTER_RIGHT" layoutX="262.0" layoutY="339.0" mnemonicParsing="false" onAction="#click_student" style="-fx-background-color: #2B4397;" text="Studenți" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

@@ -14,9 +14,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerElev">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentController">
    <children>
-      <VBox layoutY="1.0" prefHeight="400.0" prefWidth="127.0" styleClass="hbox" stylesheets="@../../../../../an2/map/labMare/src/cssDesign/mainStyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="470.0" AnchorPane.topAnchor="0.0">
+      <VBox layoutY="1.0" prefHeight="400.0" prefWidth="127.0" styleClass="hbox" stylesheets="@css/mainStyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="470.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label text="Nume" textFill="WHITE">
                <font>
@@ -26,29 +26,29 @@
                   <Insets left="40.0" top="100.0" />
                </VBox.margin>
             </Label>
-            <Button fx:id="view" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" prefHeight="31.0" prefWidth="106.0" styleClass="btn" stylesheets="@../../../../../an2/map/labMare/src/cssDesign/mainStyleSheet.css" text="Profil">
+            <Button fx:id="view" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" prefHeight="31.0" prefWidth="106.0" styleClass="btn" stylesheets="@css/mainStyleSheet.css" text="Profil">
                <VBox.margin>
                   <Insets left="15.0" top="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="tema" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" prefHeight="31.0" prefWidth="105.0" styleClass="btn" stylesheets="@../../../../../an2/map/labMare/src/cssDesign/mainStyleSheet.css" text="Internships">
+            <Button fx:id="tema" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" prefHeight="31.0" prefWidth="105.0" styleClass="btn" stylesheets="@css/mainStyleSheet.css" text="Internships">
                <VBox.margin>
                   <Insets left="15.0" top="20.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="nota" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" prefHeight="31.0" prefWidth="107.0" styleClass="btn" stylesheets="@../../../../../an2/map/labMare/src/cssDesign/mainStyleSheet.css" text="Documente">
+            <Button fx:id="nota" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" prefHeight="31.0" prefWidth="107.0" styleClass="btn" stylesheets="@css/mainStyleSheet.css" text="Documente">
                <VBox.margin>
                   <Insets left="15.0" top="20.0" />
                </VBox.margin>
             </Button>
-            <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickLogOut" prefHeight="31.0" prefWidth="106.0" styleClass="btn" stylesheets="@../../../../../an2/map/labMare/src/cssDesign/mainStyleSheet.css" text="Log Out">
+            <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickLogOut" prefHeight="31.0" prefWidth="106.0" styleClass="btn" stylesheets="@css/mainStyleSheet.css" text="Log Out">
                <VBox.margin>
                   <Insets left="15.0" top="20.0" />
                </VBox.margin>
             </Button>
          </children>
       </VBox>
-      <HBox fx:id="hbox" layoutX="152.0" layoutY="66.0" prefHeight="76.0" prefWidth="475.0" styleClass="hbox3" stylesheets="@../../../../../an2/map/labMare/src/cssDesign/mainStyleSheet.css" AnchorPane.rightAnchor="0.0">
+      <HBox fx:id="hbox" layoutX="152.0" layoutY="66.0" prefHeight="76.0" prefWidth="475.0" styleClass="hbox3" stylesheets="@css/mainStyleSheet.css" AnchorPane.rightAnchor="0.0">
          <children>
             <Label fx:id="lbl" text="Profil" textFill="WHITE">
                <font>
@@ -70,7 +70,7 @@
                            <children>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../an2/map/labMare/src/icons/iconcolorat.png" />
+                                    <Image url="@icons/iconcolorat.png" />
                                  </image>
                               </ImageView>
                               <Label fx:id="lblN" text="Nume" textFill="#2d3447">
@@ -87,7 +87,7 @@
                            <children>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../an2/map/labMare/src/icons/email.png" />
+                                    <Image url="@icons/grupa.png" />
                                  </image>
                                  <HBox.margin>
                                     <Insets right="5.0" />
@@ -104,7 +104,7 @@
                            <children>
                               <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../an2/map/labMare/src/icons/grupa.png" />
+                                    <Image url="@icons/email.png" />
                                  </image>
                                  <HBox.margin>
                                     <Insets right="5.0" />
@@ -136,7 +136,7 @@
       </StackPane>
       <ImageView fx:id="mini" fitHeight="22.0" fitWidth="28.0" layoutX="562.0" layoutY="14.0" onMouseClicked="#minimize" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../an2/map/labMare/src/icons/minicol.png" />
+            <Image url="@icons/minicol.png" />
          </image>
       </ImageView>
    </children>
