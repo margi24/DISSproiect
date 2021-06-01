@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="98.0" prefWidth="600.0" style="-fx-background-color: #2B4397;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="188.0" layoutY="32.0" text="Creare cont student" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label contentDisplay="CENTER" layoutX="26.0" layoutY="152.0" text="Nume">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="239.0" text="Parola">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="283.0" text="Confirmare parola">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="year_textField" layoutX="203.0" layoutY="363.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="26.0" layoutY="362.0" text="An universitar">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phone_textfield" layoutX="203.0" layoutY="402.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="27.0" layoutY="322.0" text="Nr. matricol">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email_textfield" layoutX="204.0" layoutY="197.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="26.0" layoutY="196.0" text="Email">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="matricol_textField" layoutX="204.0" layoutY="322.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="26.0" layoutY="401.0" text="Nr. telefon">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name_textfield" layoutX="204.0" layoutY="152.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="addCV_btn" layoutX="222.0" layoutY="483.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="154.0" style="-fx-background-color: #2B4397;" text="Adauga CV" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="register_btn" layoutX="222.0" layoutY="535.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="154.0" style="-fx-background-color: #2B4397;" text="Inregistrare" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="password_textfield" layoutX="203.0" layoutY="240.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="confirmPassword_textfield" layoutX="204.0" layoutY="282.0" prefHeight="26.0" prefWidth="366.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
